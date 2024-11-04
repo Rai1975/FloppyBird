@@ -68,8 +68,8 @@ while running:
     else:
         # Game over text
         font = pygame.font.Font(None, 36)
-        text = font.render("Game Over! Press R to Restart", True, BLACK)
-        screen.blit(text, (50, SCREEN_HEIGHT // 2 - 20))
+        text = font.render("Game Over! Press R", True, BLACK)
+        screen.blit(text, (50, SCREEN_HEIGHT // 2 ))
 
     # Display the score
     font = pygame.font.Font(None, 36)
